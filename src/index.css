@@ -1,0 +1,66 @@
+*{
+    background-color: aquamarine;
+}
+.Parent{
+    background-color: white;
+    width: 80%;
+    height: 60vh;
+    position: relative;
+    top: 10vh;
+    left: 10%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 50px 0;
+}
+.Parent h1{
+    background-color: transparent;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Parent p{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Box_Package{
+    padding: 10px;
+    margin-top: 10px ;
+    align-items: center;
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    left: 40px;
+    background-color: transparent;
+
+}
+.Boxes_div{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    margin: 5px 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.Boxes_div h3{
+    background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.Parent button{
+    position: relative;
+    left: -235px;
+    bottom: -100px;
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+    font-weight: 800;
+    font-size: 16px;
+
+}
